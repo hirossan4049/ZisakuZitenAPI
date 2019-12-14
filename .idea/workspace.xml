@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3098ff88-400e-407f-aec3-16e5d0f316e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ZisakuZitenServer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZisakuZitenServer/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="3098ff88-400e-407f-aec3-16e5d0f316e1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1575166066824</updated>
       <workItem from="1575166067937" duration="7119000" />
-      <workItem from="1576289413948" duration="44000" />
+      <workItem from="1576289413948" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7163000" />
+    <option name="totallyTimeSpent" value="7377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
