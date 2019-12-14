@@ -14,7 +14,7 @@ class Ziten(models.Model):
     title = models.CharField(max_length=64)
     content = models.CharField(max_length=128)
     updateTime = models.CharField(max_length=32)
-    group = models.ForeignKey(Group.updateTime,related_name="ziten_updT_List",on_delete=models.CASCADE)
+    group = models.ForeignKey(Group,related_name="ziten_updT_List",on_delete=models.CASCADE)
 
 
 
