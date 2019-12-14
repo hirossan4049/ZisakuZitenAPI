@@ -14,4 +14,4 @@ class GroupSerializer(serializers.ModelSerializer):
     ziten_updT_List = ZitenSerializer(many=True,read_only=True)
     class Meta:
         model = Group
-        fields = ('title','updateTime','ziten_updT_List')
+        fields = ('title','updateTime','id','ziten_updT_List')

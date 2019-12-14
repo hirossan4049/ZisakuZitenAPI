@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3098ff88-400e-407f-aec3-16e5d0f316e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ZisakuZitenServer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZisakuZitenServer/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="3098ff88-400e-407f-aec3-16e5d0f316e1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ZisakuZitenServer/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="260">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -208,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1575166066824</updated>
       <workItem from="1575166067937" duration="7119000" />
-      <workItem from="1576289413948" duration="504000" />
+      <workItem from="1576289413948" duration="550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7623000" />
+    <option name="totallyTimeSpent" value="7669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -318,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZisakuZitenServer/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="260">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
