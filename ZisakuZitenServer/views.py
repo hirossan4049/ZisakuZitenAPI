@@ -34,6 +34,24 @@ class ZitenViewSet(viewsets.ModelViewSet):
     queryset = Ziten.objects.all()
     serializer_class = ZitenSerializer
 
+    def perform_destroy(self, conversation):
+        print("destoroooooooooy")
+        if self.request.user.is_staff:
+            conversation.delete()
+            print("STAFF DELETE")
+        else:
+            print("NO STAFF DELETE")
+            # return Response({'status': 'conversation has messages'}, status=status.HTTP_400_BAD_REQUEST)
+            return Response(status=status.HTTP_400_BAD_REQUEST)
+
+    def perform_update(self, serializer):
+        if self.request.user.is_staff:
+            serializer.save()
+            print("update!")
+        else:
+            print("NO STAFF cant update.")
+            return Response(status=status.HTTP_400_BAD_REQUEST)
+
 
 """
 class GroupDestroy(generics.DestroyAPIView):
