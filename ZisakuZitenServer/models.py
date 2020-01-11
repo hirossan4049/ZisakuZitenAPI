@@ -17,4 +17,3 @@ class Ziten(models.Model):
     group = models.ForeignKey(Group,related_name="ziten_updT_List",on_delete=models.CASCADE)
 
 
-
